@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>James</title>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Click me</h1>
+			<div class="img-wrapper">
+				<img src="James-without-chine.png" alt="">
+				<img class="james-chin" src="james-chin.png" alt="">
+			</div>
+			<audio id="audio" src="helpme.m4a" ></audio>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script>
+				$(window).ready(function(){
+					var audio = document.getElementById("audio"); 
+					$(".img-wrapper").click(function(){
+							audio.play();
+						 $(".james-chin").animate({
+						 	"bottom": "0px"
+						 },function(){
+							 $(".james-chin").animate({
+							 	"bottom": "28px"
+							 }, function(){
+								 $(".james-chin").animate({
+						 			"bottom": "0px"
+								}, function(){
+							$(".james-chin").animate({
+							 	"bottom": "28px"
+							 }, function(){
+							 		 $(".james-chin").animate({
+						 			"bottom": "0px"
+								}, function(){
+										 $(".james-chin").animate({
+						 			"bottom": "28px"
+								})
+								})
+							 })		
+								})	 	
+							 });
+	 					 });
+
+					})
+				})
+			</script>
+	</body>
+</html>
