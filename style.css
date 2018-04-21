@@ -12,3 +12,10 @@ h1{
 	left:630px;
 	position: absolute;
 }
+
+@media screen and (max-width: 430px) {
+	.james-chin{
+		left:117px;
+		
+	}
+}
