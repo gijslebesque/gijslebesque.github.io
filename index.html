@@ -1,41 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Robot</title>
-	<link rel="stylesheet" href="./css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My page</title>
 </head>
 <body>
-	<nav>
-		<a href="index.html">Awesome-o</a>
-		<a href="./routes/barbara.html">Barbara Streissand Robot</a>
-		<a href="./routes/cat.html">Cat Robot</a>
-	</nav>
 
-	<section class="robot-interface">
-		<h1>Hello there, <br> I am Awesome-o!</h1>
-		<div>
-			
-			<img id="robot" src="./img/awesome-robot.jpeg">
-			<div class="dashboard">
-				<ul>
-					<li>On/Off</li>
-					<li>Speaking capabilities</li>
-					<li>Rockets</li>
-				</ul>
-			<div>
-				<input id="robot-text" type="text" placeholder="Type here">
-				<button id="talk-button">Talk!</button>
-				</div>
-			</div>
-			
-		</div>
-	</section>
-<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <header class="flex-container">
+        <div class="content">
+            <img src="./img/profile-image.png">
+            <div class="copy">
+                <h1>Jane Smith</h1>
+                <p>This is a sub sentence to explain the reader why I do what I do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p><b>Phone: 06 12 34 56 78 90  |  Email: hello@janesmith.com</b></p>
+               <a href=""><i class="fab fa-linkedin"></i></a>
+               <a href=""><i class="fab fa-twitter"></i></a>
+               <a href=""><i class="fab fa-facebook"></i></a>
+               <a href=""><i class="fab fa-instagram"></i></a>
+               <a href=""><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+    </header>
 
-<script src="./js/custom.js"></script>
-	
+    <section class="flex-container">
+        
+            <div class="content box">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+     
+        <div class="content job-section">
+
+            <div class="job">
+                <img src="./img/briefcase.svg">
+                <div class="job-description">
+                    <h3>Job 1</h3>
+                    <h4>Company name &amp; Location | Dates from-to</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <img src="./img/briefcase.svg">
+                <div class="job-description">
+                    <h3>Job 2</h3>
+                    <h4>Company name &amp; Location  |  Dates from-to</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <footer class="flex-container">
+
+        <div class="content">
+
+            <div>
+                <h2>Contact</h2>
+                <p>Name</p>
+                <p>Phone: 06 12 34 56 78 90</p>
+                <p>Email: hello@janesmith.com</p>
+            </div>
+
+            <div class="logo-container">
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-behance"></i></a>
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
