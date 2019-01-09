@@ -1,0 +1,14 @@
+.backgrounds{
+    background-color:#64C2F5;
+}
+.reveal .controls .controls-arrow:before, .reveal .controls .controls-arrow:after{
+    background-color:white;
+}
+
+.ironhack-logo{
+    position: absolute;
+    left:40px;
+    top:40px;
+    width:100px;
+    z-index: 99999;
+}
